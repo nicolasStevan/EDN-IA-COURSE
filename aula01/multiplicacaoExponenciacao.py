@@ -1,8 +1,8 @@
-#Dados da Caixa são: comprimento= 10, largura = 5, altura = 2
+#Dados da Caixa são: comprimento= 12, largura = 14, altura = 20
 
-comprimento = (input("Digite o comprimento da caixa: "))
-largura =  (input("Digite a largura da caixa: "))
-altura =  (input("Digite a altura da caixa: "))
+comprimento = 12
+largura = 14
+altura = 20
 # Calcular o volume da caixa
-volume = int(comprimento) * int(largura) * int(altura)
-print(f"O volume da caixa é: {volume} unidades cúbicas")
+volume = comprimento * largura * altura
+print(f"O volume da caixa é: {volume} cm³")
